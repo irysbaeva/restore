@@ -14,19 +14,32 @@
 }
 
 .book-list-item .book-details {
- display: flex;
- flex-direction: column;
- justify-content: space-between;
- padding-bottom: 10px;
- align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  align-items: flex-start;
 }
 
-.book-list-item .book-details .book-title {
-    font-size: 1.2rem;
-
+.book-list-item .book-details {
+  font-size: 1.2rem;
 }
 
-.book-list-item .book-details .book-price {
-    font-size: 1.4rem;
-    
+.book-list-item .book-details {
+  font-size: 1.4rem;
+}
+
+.book-price {
+  font-size: 1rem;
+}
+.book-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.book-categories {
+  font-size: 0.8rem;
+  color: grey;
+}
+.book-author {
+  font-size: 1rem;
 }

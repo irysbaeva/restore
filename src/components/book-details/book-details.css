@@ -1,0 +1,24 @@
+.book-details {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 50% 50%;
+}
+.book-cover {
+  margin: 1em;
+  grid-row: 1;
+  grid-column: 1;
+
+}
+.details {
+  margin: 1em;
+  grid-column: 2, 4;
+}
+.description {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 2;
+  margin: 1em;
+}
+.categories{
+color: grey
+}

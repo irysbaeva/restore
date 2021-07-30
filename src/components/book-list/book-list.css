@@ -1,4 +1,21 @@
 .book-list {
-    list-style: none;
-    
+  list-style: none;
+}
+.searching-panel {
+  background-color: rgb(205, 232, 235);
+  padding: 1rem;
+}
+.sorting {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1em;
+}
+select {
+  margin: 0.3em;
+  width: 10em;
+}
+
+.loading-button {
+  align-self: end;
 }

@@ -11,7 +11,7 @@ const ShopHeader = ({ numItems, total }) => {
       <Link to="/cart">
         <div className="shopping-cart">
           <i className="cart-icon fa fa-shopping-cart" />
-          {numItems} items (${total})
+          {/* {numItems} items (${total}) */}
         </div>
       </Link>
     </header>
